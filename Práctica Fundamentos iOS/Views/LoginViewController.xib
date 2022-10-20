@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="Pra_ctica_Fundamentos_iOS" customModuleProvider="target">
+            <connections>
+                <outlet property="activityIndicator" destination="BT6-aO-UCd" id="9FO-pb-YJb"/>
+                <outlet property="loginButton" destination="QJS-mm-IX7" id="W6S-zB-GIq"/>
+                <outlet property="passwordTextField" destination="0U0-02-4o7" id="MIb-kC-9K0"/>
+                <outlet property="userTextField" destination="KhQ-Td-vtr" id="MXe-zT-KRz"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondo2" translatesAutoresizingMaskIntoConstraints="NO" id="zcl-Fp-eIh">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KhQ-Td-vtr">
+                    <rect key="frame" x="40" y="357" width="334" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress" textContentType="username"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0U0-02-4o7">
+                    <rect key="frame" x="40" y="431" width="334" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QJS-mm-IX7">
+                    <rect key="frame" x="175" y="505" width="64" height="31"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Entrar"/>
+                    <connections>
+                        <action selector="onLoginTap:" destination="-1" eventType="touchUpInside" id="V2h-Bx-9MR"/>
+                    </connections>
+                </button>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="BT6-aO-UCd">
+                    <rect key="frame" x="188.5" y="429.5" width="37" height="37"/>
+                </activityIndicatorView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="zcl-Fp-eIh" secondAttribute="bottom" id="DfB-yp-erl"/>
+                <constraint firstItem="BT6-aO-UCd" firstAttribute="centerY" secondItem="zcl-Fp-eIh" secondAttribute="centerY" id="KGn-Wi-EuM"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="KhQ-Td-vtr" secondAttribute="trailing" constant="40" id="O6D-bO-lgp"/>
+                <constraint firstItem="0U0-02-4o7" firstAttribute="top" secondItem="KhQ-Td-vtr" secondAttribute="bottom" constant="40" id="Or4-wf-agG"/>
+                <constraint firstItem="BT6-aO-UCd" firstAttribute="centerX" secondItem="zcl-Fp-eIh" secondAttribute="centerX" id="SXc-aF-YFw"/>
+                <constraint firstItem="0U0-02-4o7" firstAttribute="centerX" secondItem="KhQ-Td-vtr" secondAttribute="centerX" id="bd7-0G-HXq"/>
+                <constraint firstItem="KhQ-Td-vtr" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="40" id="bgv-O9-C8A"/>
+                <constraint firstItem="zcl-Fp-eIh" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="buG-yx-bOI"/>
+                <constraint firstItem="QJS-mm-IX7" firstAttribute="centerX" secondItem="0U0-02-4o7" secondAttribute="centerX" id="fho-ET-Ebu"/>
+                <constraint firstItem="0U0-02-4o7" firstAttribute="leading" secondItem="KhQ-Td-vtr" secondAttribute="leading" id="fj9-yv-CfW"/>
+                <constraint firstItem="zcl-Fp-eIh" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="ihN-OG-oSZ"/>
+                <constraint firstItem="0U0-02-4o7" firstAttribute="centerX" secondItem="zcl-Fp-eIh" secondAttribute="centerX" id="nKn-hm-jnW"/>
+                <constraint firstItem="0U0-02-4o7" firstAttribute="centerY" secondItem="zcl-Fp-eIh" secondAttribute="centerY" id="prL-ED-Sga"/>
+                <constraint firstItem="QJS-mm-IX7" firstAttribute="top" secondItem="0U0-02-4o7" secondAttribute="bottom" constant="40" id="qPH-Ba-bnO"/>
+                <constraint firstItem="zcl-Fp-eIh" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="tSK-mN-1XL"/>
+                <constraint firstItem="0U0-02-4o7" firstAttribute="trailing" secondItem="KhQ-Td-vtr" secondAttribute="trailing" id="uOi-xR-aWw"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="154"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="fondo2" width="1080" height="1920"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

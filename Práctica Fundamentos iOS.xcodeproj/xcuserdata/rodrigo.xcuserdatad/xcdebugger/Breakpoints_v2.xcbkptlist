@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4F724FE7-AE80-4FB4-9CC3-C318B42FDDDA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C1A9945F-C7AE-46F6-898B-B46EAC13D8DC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pra&#x301;ctica Fundamentos iOS/Models/NetworkModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "167"
+            endingLineNumber = "167"
+            landmarkName = "performAuthenticatedNetworkRequest(_:httpMethod:httpBody:requestToken:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C1A9945F-C7AE-46F6-898B-B46EAC13D8DC - 45eedb87573e6cc6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Pr&#xe1;ctica_Fundamentos_iOS.NetworkModel.performAuthenticatedNetworkRequest&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_1: Swift.Encodable&gt;(_: Swift.String, httpMethod: Pr&#xe1;ctica_Fundamentos_iOS.HTTPMethod, httpBody: Swift.Optional&lt;&#x3c4;_0_1&gt;, requestToken: Swift.String, completion: (Swift.Result&lt;&#x3c4;_0_0, Pr&#xe1;ctica_Fundamentos_iOS.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Pra&#x301;ctica Fundamentos iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodrigo/Downloads/04.IOS.FUNDAMENTOS-main%202/Practica%20Resuelta%20Fundamentos%20iOS/Practica%20opcional/Pra%CC%81ctica%20Fundamentos%20iOS/Models/NetworkModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "167"
+                  endingLineNumber = "167"
+                  offsetFromSymbolStart = "736">
+               </Location>
+               <Location
+                  uuid = "C1A9945F-C7AE-46F6-898B-B46EAC13D8DC - 45eedb87573e6cc6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Pr&#xe1;ctica_Fundamentos_iOS.NetworkModel.performAuthenticatedNetworkRequest&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_1: Swift.Encodable&gt;(_: Swift.String, httpMethod: Pr&#xe1;ctica_Fundamentos_iOS.HTTPMethod, httpBody: Swift.Optional&lt;&#x3c4;_0_1&gt;, requestToken: Swift.String, completion: (Swift.Result&lt;&#x3c4;_0_0, Pr&#xe1;ctica_Fundamentos_iOS.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Pra&#x301;ctica Fundamentos iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodrigo/Downloads/04.IOS.FUNDAMENTOS-main%202/Practica%20Resuelta%20Fundamentos%20iOS/Practica%20opcional/Pra%CC%81ctica%20Fundamentos%20iOS/Models/NetworkModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "167"
+                  endingLineNumber = "167"
+                  offsetFromSymbolStart = "932">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
